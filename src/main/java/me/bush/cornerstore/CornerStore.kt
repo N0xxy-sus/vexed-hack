@@ -18,14 +18,14 @@ import net.minecraftforge.fml.common.event.*
 class CornerStore {
 
     companion object {
-        const val VERSION = "0.2.2"
-        const val MODID = "cornerstore"
-        const val NAME = "711.CLUB"
+        const val VERSION = "0.1"
+        const val MODID = "812"
+        const val NAME = "812.CLUB"
         const val GUIHOOK = "me.bush.cornerstore.impl.gui.clickgui.ForgeConfigHook"
         const val ALIAS = "$NAME $VERSION"
 
         @Mod.Instance
-        lateinit var INSTANCE: CornerStore
+        lateinit var INSTANCE: 812
     }
 
     @Mod.EventHandler
